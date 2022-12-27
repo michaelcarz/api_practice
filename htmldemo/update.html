@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>更新英雄資料</title>
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>更新英雄</h1>
+        <form id="update_form" method="post" enctype="multipart/form-data">
+            請選擇UUID:<select id="UUIDList" name="UUIDList" onchange="getOptionid()">
+                <option id="demo">UUID </option>
+                <script>
+                    const listEL = document.querySelector('#UUIDList');
+                    let optionCreated = false;
+
+                    listEL.addEventListener('click', event => {
+                        event.preventDefault();         //prevent refresh or something happen
+                        function getData(data) {
+                            if (!optionCreated) {
+                                var select = document.getElementById("UUIDList");
+                                for (var x = 0; x < data.length; x++) {
+                                    var option = document.createElement("option");
+                                    option.appendChild(document.createTextNode(data[x]["UUID"]));//create new option in drop down list
+                                    select.appendChild(option);
+                                } optionCreated = true;
+                            }
+                        }
+
+                        fetch('http://localhost:8080/v1/users', {
+                            method: 'GET',
+                        })
+                            .then(res => res.json())
+                            .then((data) => {
+                                var allData = data;
+                                //console.log(allData);
+                                getData(allData);
+                                getOptionid(allData);
+                            })
+                            .catch(error => console.log(error));
+                    });  //only fetch once
+
+                    function getOptionid(data) {
+                        var x = document.getElementById("UUIDList");
+                        for (var i = 0; i < data.length; i++) {
+                            if (parseInt(x.options[x.selectedIndex].text) == data[i]["UUID"]) {
+                                document.getElementById("Name").value = data[i]["Name"];
+                                document.getElementById("Rank").value = data[i]["Rank"];
+                                document.getElementById("Job").value = data[i]["Job"];
+                                document.getElementById("Camp").value = data[i]["Camp"];
+                                document.getElementById("Base").value = data[i]["Base"];
+                                document.getElementById("Grow").value = data[i]["Grow"];
+                            }
+                        }
+
+                        // document.getElementById("Name").value = x.options[x.selectedIndex].text;//get the options value
+                    }
+                </script>
+            </select>
+            <ul>
+                Name：<input type="text" id="Name" name="Name">
+
+                Rank：<input type="text" id="Rank" name="Rank"><br><br>
+
+                Job：<input type="text" id="Job" name="Job">
+
+                Camp：<input type="text" id="Camp" name="Camp"><br><br>
+
+                Base：<input type="text" id="Base" name="Base">
+
+                Grow：<input type="text" id="Grow" name="Grow"><br><br>
+            </ul>
+            <input type="button" value="回首頁" onclick="location.href='http://localhost:8080/test'">
+
+            <a href="javascript:;" type="submit" id="signup_btn" class="signup_btn">
+                <!--<a href="javascript:;"></a> 點擊後是不會跳轉的 一般用於開發時頁面還未完成-->
+                <input type="submit" value="更新" class="signup_btn">
+                <!-- 送出 -->
+            </a>
+
+        </form>
+    </center>
+</body>
+
+<script>
+    const formEL = document.querySelector('#update_form');
+
+    formEL.addEventListener('submit', event => {
+        event.preventDefault();         //prevent refresh or something happen
+        const formData = new FormData(formEL);
+        const data = Object.fromEntries(formData)   //convert from data to js object literal
+
+        fetch('http://localhost:8080/v1/users/modify/:id', {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        }).then(res => res.json())
+            .then((data) => console.log(data))
+            .catch(error => console.log(error));
+        console.log(data);
+    });
+</script>
+
+</html>

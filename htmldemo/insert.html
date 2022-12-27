@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>新增英雄資料</title>
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>新增英雄</h1>
+        <form id="insert_form" method="post" enctype="multipart/form-data">
+            <ul>
+                Name：<input type="text" id="Name" name="Name">
+                Rank：<input type="text" id="Rank" name="Rank"><br><br>
+                Job：<input type="text" id="Job" name="Job">
+                Camp：<input type="text" id="Camp" name="Camp"><br><br>
+                Base：<input type="text" id="Base" name="Base">
+                Grow：<input type="text" id="Grow" name="Grow"><br><br>
+            </ul>
+            <input type="button" value="回首頁" onclick="location.href='http://localhost:8080/test'">
+
+            <a href="javascript:;" type="submit" id="signup_btn" class="signup_btn">
+                <!--<a href="javascript:;"></a> 點擊後是不會跳轉的 一般用於開發時頁面還未完成-->
+                <input type="submit" value="送出" class="signup_btn">
+                <!-- 送出 -->
+            </a>
+
+        </form>
+    </center>
+</body>
+<script>
+    const formEL = document.querySelector('#insert_form');
+
+    formEL.addEventListener('submit', event => {
+        event.preventDefault();         //prevent refresh or something happen
+        const formData = new FormData(formEL);
+        const data = Object.fromEntries(formData)   //convert from data to js object literal
+
+        fetch('http://localhost:8080/v1/users', {   //request http://localhost:8080/v1/users的回應
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)      //把表單轉成json格式
+        }).then(res => res.json())
+            .then((data) => console.log(data))
+            .catch(error => console.log(error));
+        console.log(data);
+    });
+
+</script>
+
+</html>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $('#signup_btn').click(function () {
+        Name = $('#Name').val(),
+            Rank = $('#Rank').val(),
+            Job = $('#Job').val(),
+            Camp = $('#Camp').val(),
+            Base = $('#Base').val();
+        Grow = $('#Grow').val();
+
+        jsonObj = [];
+        item = {}
+        item["Name"] = Name;//【團隊】隊長
+        item["Rank"] = Rank;//隊員
+        item["Job"] = Job;
+        item["Camp"] = Camp;
+        item["Base"] = Base;
+        item["Grow"] = Grow;
+
+        jsonObj.push(item);//將item傳入jsonObj裡面
+
+        $('#result').html(JSON.stringify(jsonObj));//前端呈現送到資料庫的結果
+
+        console.log(JSON.stringify(jsonObj))
+
+
+        fetch('http://127.0.0.1:8080/insert', {
+            method: 'POST',
+
+        })
+            .then(res => {
+                return res;  
+            }).then(result => {
+                console.log(result); 
+            });
+    });
+
+</script> -->

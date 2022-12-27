@@ -1,0 +1,4117 @@
+[
+    {
+        "Job": 1,
+        "UUID": "H0001",
+        "Name": "趙雲",
+        "Rank": 4,
+        "Camp": 1,
+        "Base": {
+            "Str": 11,
+            "Dex": 16,
+            "Int": 13
+        },
+        "Grow": {
+            "Str": 10,
+            "Dex": 17,
+            "Int": 13
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN001",
+                "Name": "突刺",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0001",
+                "Name": "常山虎將",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 300,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 20,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 2,
+                "UUID": "PA0001",
+                "Name": "浴血護主",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 200,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 20,
+                            "Max": 0,
+                            "Attr": "Hper",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 20,
+                "Description": "當血量低於20%，此回合會對全體造成200%的攻擊。"
+            }
+        ],
+        "Resistance": {
+            "R1": 100,
+            "R2": 80,
+            "R3": 110,
+            "R4": 120
+        }
+    },
+    {
+        "Job": 2,
+        "UUID": "H0002",
+        "Name": "關羽",
+        "Rank": 3,
+        "Camp": 1,
+        "Base": {
+            "Str": 9,
+            "Dex": 13,
+            "Int": 8
+        },
+        "Grow": {
+            "Str": 11,
+            "Dex": 9,
+            "Int": 10
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN002",
+                "Name": "風斬",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0002",
+                "Name": "天下義士",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 150,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 15,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 0,
+                "UUID": "PA0002",
+                "Name": "廣交武將",
+                "Type": 3,
+                "Sets": null,
+                "Scope": 0,
+                "TeamBuff": {
+                    "Job": 2,
+                    "UUID": "1be8118d-dde9-48cc-be01-99c119a0ffce",
+                    "Name": "廣交武將",
+                    "Rank": 0,
+                    "Camp": 0,
+                    "Scope": 2060,
+                    "Limits": 3,
+                    "Formula": [
+                        {
+                            "Min": 10,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        }
+                    ]
+                },
+                "Probability": 0,
+                "Description": "當與同職業的英雄出戰，每一支就多增加全體10%攻擊力，最多增加30%"
+            }
+        ],
+        "Resistance": {
+            "R1": 120,
+            "R2": 90,
+            "R3": 100,
+            "R4": 80
+        }
+    },
+    {
+        "Job": 4,
+        "UUID": "H0003",
+        "Name": "張飛",
+        "Rank": 2,
+        "Camp": 1,
+        "Base": {
+            "Str": 8,
+            "Dex": 8,
+            "Int": 4
+        },
+        "Grow": {
+            "Str": 5,
+            "Dex": 9,
+            "Int": 6
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN004",
+                "Name": "狂打",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0003",
+                "Name": "聞可震天",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 120,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1032,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 0,
+                "UUID": "PA0003",
+                "Name": "聖愛士人",
+                "Type": 3,
+                "Sets": null,
+                "Scope": 0,
+                "TeamBuff": {
+                    "Job": 0,
+                    "UUID": "c587de31-3b3c-40dd-9b90-463247a3ce3d",
+                    "Name": "聖愛士人",
+                    "Rank": 0,
+                    "Camp": 1,
+                    "Scope": 2000,
+                    "Limits": 3,
+                    "Formula": [
+                        {
+                            "Min": 5,
+                            "Max": 0,
+                            "Attr": "Def",
+                            "Mode": 0
+                        }
+                    ]
+                },
+                "Probability": 0,
+                "Description": "當與同個勢力的一同出戰，會增加自己的護甲5%，最多增加15%。"
+            }
+        ],
+        "Resistance": {
+            "R1": 90,
+            "R2": 90,
+            "R3": 70,
+            "R4": 120
+        }
+    },
+    {
+        "Job": 3,
+        "UUID": "H0004",
+        "Name": "諸葛亮",
+        "Rank": 4,
+        "Camp": 1,
+        "Base": {
+            "Str": 12,
+            "Dex": 13,
+            "Int": 15
+        },
+        "Grow": {
+            "Str": 12,
+            "Dex": 15,
+            "Int": 13
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN003",
+                "Name": "空氣彈",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 70,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1122,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0004",
+                "Name": "三分天下事",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 130,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 1,
+                "UUID": "PA0004",
+                "Name": "深居臥龍",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": {
+                            "At": 0,
+                            "UUID": "7647c00e-d814-420b-8da2-450409d3fc60",
+                            "Name": "深居臥龍",
+                            "Mode": 3,
+                            "Sets": [
+                                {
+                                    "State": null,
+                                    "Method": 6,
+                                    "Formula": {
+                                        "Min": 30,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitAtker": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitHurter": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    }
+                                }
+                            ],
+                            "Times": 0,
+                            "Probability": 15
+                        },
+                        "Method": 5,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 2060,
+                "TeamBuff": null,
+                "Probability": 100,
+                "Description": "有15%機率使全隊減免30%傷害。"
+            }
+        ],
+        "Resistance": {
+            "R1": 100,
+            "R2": 120,
+            "R3": 110,
+            "R4": 80
+        }
+    },
+    {
+        "Job": 2,
+        "UUID": "H0005",
+        "Name": "劉備",
+        "Rank": 4,
+        "Camp": 1,
+        "Base": {
+            "Str": 13,
+            "Dex": 17,
+            "Int": 10
+        },
+        "Grow": {
+            "Str": 17,
+            "Dex": 11,
+            "Int": 12
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN002",
+                "Name": "風斬",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0005",
+                "Name": "梟雄之姿",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 200,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 20,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 2,
+                "UUID": "PA0005",
+                "Name": "擒賊先擒王",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 3,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 10,
+                            "Max": 0,
+                            "Attr": "Hper",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 15,
+                "Description": "10%機率直接斬殺10％以下血量的妖魔或英雄。"
+            }
+        ],
+        "Resistance": {
+            "R1": 100,
+            "R2": 120,
+            "R3": 110,
+            "R4": 80
+        }
+    },
+    {
+        "Job": 1,
+        "UUID": "H0006",
+        "Name": "馬超",
+        "Rank": 4,
+        "Camp": 1,
+        "Base": {
+            "Str": 12,
+            "Dex": 17,
+            "Int": 11
+        },
+        "Grow": {
+            "Str": 11,
+            "Dex": 15,
+            "Int": 14
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN001",
+                "Name": "突刺",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0006",
+                "Name": "將門虎子",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 180,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 20,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 7,
+                "UUID": "PA0006",
+                "Name": "暗來一筆",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1000,
+                "TeamBuff": null,
+                "Probability": 45,
+                "Description": "有45%機率普通攻擊敵方一次。"
+            }
+        ],
+        "Resistance": {
+            "R1": 110,
+            "R2": 115,
+            "R3": 115,
+            "R4": 80
+        }
+    },
+    {
+        "Job": 1,
+        "UUID": "H0007",
+        "Name": "黃忠",
+        "Rank": 3,
+        "Camp": 1,
+        "Base": {
+            "Str": 12,
+            "Dex": 8,
+            "Int": 10
+        },
+        "Grow": {
+            "Str": 9,
+            "Dex": 10,
+            "Int": 11
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN001",
+                "Name": "突刺",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0007",
+                "Name": "老兵長談",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 150,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1032,
+                "TeamBuff": null,
+                "Probability": 15,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 0,
+                "UUID": "PA0007",
+                "Name": "武將忠生",
+                "Type": 3,
+                "Sets": null,
+                "Scope": 0,
+                "TeamBuff": {
+                    "Job": 1,
+                    "UUID": "a28675bc-4292-4bec-8b73-9048e70b396d",
+                    "Name": "武將忠生",
+                    "Rank": 0,
+                    "Camp": 0,
+                    "Scope": 2000,
+                    "Limits": 3,
+                    "Formula": [
+                        {
+                            "Min": 5,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        }
+                    ]
+                },
+                "Probability": 0,
+                "Description": "當與同個勢力的一同出戰，會增加自己的攻擊5%，最多增加15%。"
+            }
+        ],
+        "Resistance": {
+            "R1": 75,
+            "R2": 100,
+            "R3": 105,
+            "R4": 110
+        }
+    },
+    {
+        "Job": 2,
+        "UUID": "H0008",
+        "Name": "姜維",
+        "Rank": 2,
+        "Camp": 1,
+        "Base": {
+            "Str": 11,
+            "Dex": 4,
+            "Int": 5
+        },
+        "Grow": {
+            "Str": 8,
+            "Dex": 6,
+            "Int": 6
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN002",
+                "Name": "風斬",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0008",
+                "Name": "日月幽而復明",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 140,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1121,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 1,
+                "UUID": "PA0008",
+                "Name": "好戰忠膽",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": {
+                            "At": 0,
+                            "UUID": "76b9e9b4-0e7c-4859-9f23-04f3a3921069",
+                            "Name": "好戰忠膽",
+                            "Mode": 3,
+                            "Sets": [
+                                {
+                                    "State": null,
+                                    "Method": 0,
+                                    "Formula": {
+                                        "Min": 5,
+                                        "Max": 0,
+                                        "Attr": "Atk",
+                                        "Mode": 0
+                                    },
+                                    "LimitAtker": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitHurter": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    }
+                                }
+                            ],
+                            "Times": 0,
+                            "Probability": 0
+                        },
+                        "Method": 4,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 2060,
+                "TeamBuff": null,
+                "Probability": 30,
+                "Description": "在開始戰鬥時會有30%機率增加全體攻擊力5%"
+            }
+        ],
+        "Resistance": {
+            "R1": 120,
+            "R2": 80,
+            "R3": 100,
+            "R4": 70
+        }
+    },
+    {
+        "Job": 4,
+        "UUID": "H0009",
+        "Name": "魏延",
+        "Rank": 2,
+        "Camp": 1,
+        "Base": {
+            "Str": 6,
+            "Dex": 6,
+            "Int": 8
+        },
+        "Grow": {
+            "Str": 6,
+            "Dex": 7,
+            "Int": 7
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN004",
+                "Name": "狂打",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0009",
+                "Name": "膽識過人",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 120,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1121,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 1,
+                "UUID": "PA0009",
+                "Name": "重門之計",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": {
+                            "At": 0,
+                            "UUID": "3aa0ffd8-0d1b-464c-8477-869a6091b56c",
+                            "Name": "重門之計",
+                            "Mode": 3,
+                            "Sets": [
+                                {
+                                    "State": null,
+                                    "Method": 0,
+                                    "Formula": {
+                                        "Min": 10,
+                                        "Max": 0,
+                                        "Attr": "Def",
+                                        "Mode": 0
+                                    },
+                                    "LimitAtker": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitHurter": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    }
+                                }
+                            ],
+                            "Times": 0,
+                            "Probability": 0
+                        },
+                        "Method": 4,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 2060,
+                "TeamBuff": null,
+                "Probability": 30,
+                "Description": "在開始戰鬥時會有30%機率增加全體護甲10%"
+            }
+        ],
+        "Resistance": {
+            "R1": 75,
+            "R2": 110,
+            "R3": 110,
+            "R4": 75
+        }
+    },
+    {
+        "Job": 3,
+        "UUID": "H0010",
+        "Name": "龐統",
+        "Rank": 2,
+        "Camp": 1,
+        "Base": {
+            "Str": 3,
+            "Dex": 7,
+            "Int": 10
+        },
+        "Grow": {
+            "Str": 5,
+            "Dex": 8,
+            "Int": 7
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN003",
+                "Name": "空氣彈",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 70,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1122,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0010",
+                "Name": "奇才小用",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 140,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 1,
+                "UUID": "PA0010",
+                "Name": "鳳雛觀事",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": {
+                            "At": 0,
+                            "UUID": "2e91797a-ee4a-4878-ac72-447fbe421623",
+                            "Name": "鳳雛觀事",
+                            "Mode": 3,
+                            "Sets": [
+                                {
+                                    "State": null,
+                                    "Method": 0,
+                                    "Formula": {
+                                        "Min": 5,
+                                        "Max": 0,
+                                        "Attr": "Spd",
+                                        "Mode": 0
+                                    },
+                                    "LimitAtker": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitHurter": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    }
+                                }
+                            ],
+                            "Times": 0,
+                            "Probability": 0
+                        },
+                        "Method": 4,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 2060,
+                "TeamBuff": null,
+                "Probability": 30,
+                "Description": "在開始戰鬥時會有30%機率增加全體閃避率10%"
+            }
+        ],
+        "Resistance": {
+            "R1": 80,
+            "R2": 105,
+            "R3": 70,
+            "R4": 105
+        }
+    },
+    {
+        "Job": 2,
+        "UUID": "H0011",
+        "Name": "月英",
+        "Rank": 4,
+        "Camp": 1,
+        "Base": {
+            "Str": 16,
+            "Dex": 11,
+            "Int": 13
+        },
+        "Grow": {
+            "Str": 14,
+            "Dex": 15,
+            "Int": 11
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN002",
+                "Name": "風斬",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0011",
+                "Name": "算盡機關",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 200,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1033,
+                "TeamBuff": null,
+                "Probability": 20,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 1,
+                "UUID": "PA0011",
+                "Name": "為夫謀天下事",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": {
+                            "At": 0,
+                            "UUID": "bf72f285-13a6-413a-baeb-6398999030f6",
+                            "Name": "為夫謀天下事",
+                            "Mode": 3,
+                            "Sets": [
+                                {
+                                    "State": null,
+                                    "Method": 0,
+                                    "Formula": {
+                                        "Min": 15,
+                                        "Max": 0,
+                                        "Attr": "Atk",
+                                        "Mode": 0
+                                    },
+                                    "LimitAtker": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitHurter": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    }
+                                }
+                            ],
+                            "Times": 0,
+                            "Probability": 0
+                        },
+                        "Method": 4,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 2060,
+                "TeamBuff": null,
+                "Probability": 50,
+                "Description": "在開始戰鬥前會有50%機率增加全體攻擊力15%"
+            }
+        ],
+        "Resistance": {
+            "R1": 115,
+            "R2": 100,
+            "R3": 100,
+            "R4": 95
+        }
+    },
+    {
+        "Job": 1,
+        "UUID": "H0012",
+        "Name": "關平",
+        "Rank": 2,
+        "Camp": 1,
+        "Base": {
+            "Str": 6,
+            "Dex": 7,
+            "Int": 7
+        },
+        "Grow": {
+            "Str": 8,
+            "Dex": 6,
+            "Int": 6
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN001",
+                "Name": "突刺",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0012",
+                "Name": "精忠武將",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 120,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1032,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 0,
+                "UUID": "PA0012",
+                "Name": "隨父征戰",
+                "Type": 3,
+                "Sets": null,
+                "Scope": 0,
+                "TeamBuff": {
+                    "Job": 1,
+                    "UUID": "6b9a9c87-18b6-4a61-a410-5198d7603cd3",
+                    "Name": "隨父征戰",
+                    "Rank": 0,
+                    "Camp": 0,
+                    "Scope": 2000,
+                    "Limits": 3,
+                    "Formula": [
+                        {
+                            "Min": 5,
+                            "Max": 0,
+                            "Attr": "MaxHp",
+                            "Mode": 0
+                        }
+                    ]
+                },
+                "Probability": 0,
+                "Description": "當與同個職業英雄出戰，會多增加本身血量5%，最多15%"
+            }
+        ],
+        "Resistance": {
+            "R1": 90,
+            "R2": 120,
+            "R3": 90,
+            "R4": 70
+        }
+    },
+    {
+        "Job": 4,
+        "UUID": "H0013",
+        "Name": "星彩",
+        "Rank": 4,
+        "Camp": 1,
+        "Base": {
+            "Str": 10,
+            "Dex": 17,
+            "Int": 13
+        },
+        "Grow": {
+            "Str": 11,
+            "Dex": 14,
+            "Int": 15
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN004",
+                "Name": "狂打",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0013",
+                "Name": "星落殞墜",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 170,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1013,
+                "TeamBuff": null,
+                "Probability": 20,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 7,
+                "UUID": "PA0013",
+                "Name": "反手再戰",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 7,
+                        "Formula": {
+                            "Min": 50,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1000,
+                "TeamBuff": null,
+                "Probability": 60,
+                "Description": "被攻擊時有60%機率反傷敵方攻擊自己的傷害50%"
+            }
+        ],
+        "Resistance": {
+            "R1": 100,
+            "R2": 95,
+            "R3": 100,
+            "R4": 115
+        }
+    },
+    {
+        "Job": 2,
+        "UUID": "H0014",
+        "Name": "馬岱",
+        "Rank": 2,
+        "Camp": 1,
+        "Base": {
+            "Str": 7,
+            "Dex": 6,
+            "Int": 7
+        },
+        "Grow": {
+            "Str": 8,
+            "Dex": 6,
+            "Int": 6
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN002",
+                "Name": "風斬",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0014",
+                "Name": "一落千敵",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 2,
+                "UUID": "PA0014",
+                "Name": "拚死一搏",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 3,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 5,
+                            "Max": 0,
+                            "Attr": "Hper",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 5,
+                "Description": "5%機率直接斬殺5％以下血量的妖魔或英雄。"
+            }
+        ],
+        "Resistance": {
+            "R1": 110,
+            "R2": 70,
+            "R3": 110,
+            "R4": 70
+        }
+    },
+    {
+        "Job": 1,
+        "UUID": "H0015",
+        "Name": "關索",
+        "Rank": 3,
+        "Camp": 1,
+        "Base": {
+            "Str": 10,
+            "Dex": 11,
+            "Int": 9
+        },
+        "Grow": {
+            "Str": 9,
+            "Dex": 12,
+            "Int": 9
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN001",
+                "Name": "突刺",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0015",
+                "Name": "俠盜花公子",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 150,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1032,
+                "TeamBuff": null,
+                "Probability": 15,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 3,
+                "UUID": "PA0015",
+                "Name": "背水一戰",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 20,
+                            "Max": 0,
+                            "Attr": "Hper",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 100,
+                "Description": "當血量低於20%，此回合會對全體造成100%的攻擊。"
+            }
+        ],
+        "Resistance": {
+            "R1": 75,
+            "R2": 120,
+            "R3": 85,
+            "R4": 110
+        }
+    },
+    {
+        "Job": 2,
+        "UUID": "H0048",
+        "Name": "周瑜",
+        "Rank": 2,
+        "Camp": 3,
+        "Base": {
+            "Str": 6,
+            "Dex": 6,
+            "Int": 8
+        },
+        "Grow": {
+            "Str": 8,
+            "Dex": 5,
+            "Int": 7
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN002",
+                "Name": "風斬",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0048",
+                "Name": "雄姿英發",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 150,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 0,
+                "UUID": "PA0048",
+                "Name": "識才知音",
+                "Type": 3,
+                "Sets": null,
+                "Scope": 0,
+                "TeamBuff": {
+                    "Job": 0,
+                    "UUID": "dc15d0bd-7c6d-4f55-af71-c8ede25b93a1",
+                    "Name": "識才知音",
+                    "Rank": 0,
+                    "Camp": 2,
+                    "Scope": 2000,
+                    "Limits": 3,
+                    "Formula": [
+                        {
+                            "Min": 5,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        }
+                    ]
+                },
+                "Probability": 0,
+                "Description": "當與同個勢力的一同出戰，會增加自己的攻擊力5%，最多增加15%。"
+            }
+        ],
+        "Resistance": {
+            "R1": 120,
+            "R2": 70,
+            "R3": 85,
+            "R4": 85
+        }
+    },
+    {
+        "Job": 1,
+        "UUID": "H0049",
+        "Name": "陸遜",
+        "Rank": 3,
+        "Camp": 3,
+        "Base": {
+            "Str": 8,
+            "Dex": 9,
+            "Int": 13
+        },
+        "Grow": {
+            "Str": 11,
+            "Dex": 12,
+            "Int": 7
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN001",
+                "Name": "突刺",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0049",
+                "Name": "才堪負重",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 150,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 15,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 2,
+                "UUID": "PA0049",
+                "Name": "血洗伯言",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 150,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 20,
+                            "Max": 0,
+                            "Attr": "Hper",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 100,
+                "Description": "當血量低於20%，此回合會對全體造成150%的攻擊。"
+            }
+        ],
+        "Resistance": {
+            "R1": 85,
+            "R2": 85,
+            "R3": 100,
+            "R4": 120
+        }
+    },
+    {
+        "Job": 2,
+        "UUID": "H0050",
+        "Name": "孫尚香",
+        "Rank": 4,
+        "Camp": 3,
+        "Base": {
+            "Str": 21,
+            "Dex": 2,
+            "Int": 17
+        },
+        "Grow": {
+            "Str": 20,
+            "Dex": 3,
+            "Int": 17
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN002",
+                "Name": "風斬",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0050",
+                "Name": "女力縱橫",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 180,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1123,
+                "TeamBuff": null,
+                "Probability": 20,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 7,
+                "UUID": "PA0050",
+                "Name": "剛強復仇",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 300,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 25,
+                            "Max": 0,
+                            "Attr": "Hper",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1000,
+                "TeamBuff": null,
+                "Probability": 100,
+                "Description": "當血量低於25%，此回合會對造成自己傷害的人攻擊300%"
+            }
+        ],
+        "Resistance": {
+            "R1": 85,
+            "R2": 120,
+            "R3": 85,
+            "R4": 120
+        }
+    },
+    {
+        "Job": 3,
+        "UUID": "H0051",
+        "Name": "太史慈",
+        "Rank": 2,
+        "Camp": 3,
+        "Base": {
+            "Str": 6,
+            "Dex": 7,
+            "Int": 7
+        },
+        "Grow": {
+            "Str": 5,
+            "Dex": 6,
+            "Int": 9
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN003",
+                "Name": "空氣彈",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 70,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1122,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0051",
+                "Name": "突出重圍",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 130,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1032,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 1,
+                "UUID": "PA0051",
+                "Name": "恩遇摯友",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": {
+                            "At": 0,
+                            "UUID": "6d193032-f1ec-4814-ad45-fefcce80b84d",
+                            "Name": "恩遇摯友",
+                            "Mode": 3,
+                            "Sets": [
+                                {
+                                    "State": null,
+                                    "Method": 0,
+                                    "Formula": {
+                                        "Min": 5,
+                                        "Max": 0,
+                                        "Attr": "Atk",
+                                        "Mode": 0
+                                    },
+                                    "LimitAtker": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitHurter": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    }
+                                },
+                                {
+                                    "State": null,
+                                    "Method": 0,
+                                    "Formula": {
+                                        "Min": 5,
+                                        "Max": 0,
+                                        "Attr": "MaxHp",
+                                        "Mode": 0
+                                    },
+                                    "LimitAtker": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitHurter": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    }
+                                }
+                            ],
+                            "Times": 0,
+                            "Probability": 0
+                        },
+                        "Method": 5,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 2060,
+                "TeamBuff": null,
+                "Probability": 20,
+                "Description": "在開始戰鬥時會有20%機率增加全體攻擊力5%與血量5%"
+            }
+        ],
+        "Resistance": {
+            "R1": 80,
+            "R2": 95,
+            "R3": 115,
+            "R4": 80
+        }
+    },
+    {
+        "Job": 4,
+        "UUID": "H0052",
+        "Name": "孫堅",
+        "Rank": 3,
+        "Camp": 3,
+        "Base": {
+            "Str": 8,
+            "Dex": 14,
+            "Int": 8
+        },
+        "Grow": {
+            "Str": 7,
+            "Dex": 13,
+            "Int": 10
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN004",
+                "Name": "狂打",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0052",
+                "Name": "武烈將星",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 160,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 15,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 1,
+                "UUID": "PA0052",
+                "Name": "臨危不懼",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": {
+                            "At": 0,
+                            "UUID": "b13815ad-570d-4484-ad76-482074cf2f3c",
+                            "Name": "臨危不懼",
+                            "Mode": 3,
+                            "Sets": [
+                                {
+                                    "State": null,
+                                    "Method": 0,
+                                    "Formula": {
+                                        "Min": 10,
+                                        "Max": 0,
+                                        "Attr": "Atk",
+                                        "Mode": 0
+                                    },
+                                    "LimitAtker": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitHurter": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    }
+                                }
+                            ],
+                            "Times": 0,
+                            "Probability": 0
+                        },
+                        "Method": 5,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 2060,
+                "TeamBuff": null,
+                "Probability": 45,
+                "Description": "戰鬥開始前會有45%機率增加全體攻擊力10%"
+            }
+        ],
+        "Resistance": {
+            "R1": 90,
+            "R2": 90,
+            "R3": 110,
+            "R4": 100
+        }
+    },
+    {
+        "Job": 2,
+        "UUID": "H0053",
+        "Name": "甘寧",
+        "Rank": 2,
+        "Camp": 3,
+        "Base": {
+            "Str": 7,
+            "Dex": 7,
+            "Int": 6
+        },
+        "Grow": {
+            "Str": 9,
+            "Dex": 5,
+            "Int": 6
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN002",
+                "Name": "風斬",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0053",
+                "Name": "鬥將氣焰",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 140,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1122,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 2,
+                "UUID": "PA0053",
+                "Name": "危難隨安",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 150,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 15,
+                            "Max": 0,
+                            "Attr": "Hper",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 100,
+                "Description": "當血量低於15%，此回合會對全體造成150%的攻擊。"
+            }
+        ],
+        "Resistance": {
+            "R1": 80,
+            "R2": 100,
+            "R3": 90,
+            "R4": 100
+        }
+    },
+    {
+        "Job": 1,
+        "UUID": "H0054",
+        "Name": "呂蒙",
+        "Rank": 3,
+        "Camp": 3,
+        "Base": {
+            "Str": 3,
+            "Dex": 9,
+            "Int": 18
+        },
+        "Grow": {
+            "Str": 15,
+            "Dex": 8,
+            "Int": 7
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN001",
+                "Name": "突刺",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0054",
+                "Name": "先戰前兵",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 120,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1012,
+                "TeamBuff": null,
+                "Probability": 15,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 2,
+                "UUID": "PA0054",
+                "Name": "先得遠見",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 50,
+                "Description": "在戰鬥開始前有50%機率對敵方全體造成普通傷害。"
+            }
+        ],
+        "Resistance": {
+            "R1": 110,
+            "R2": 95,
+            "R3": 90,
+            "R4": 95
+        }
+    },
+    {
+        "Job": 2,
+        "UUID": "H0055",
+        "Name": "孫權",
+        "Rank": 4,
+        "Camp": 3,
+        "Base": {
+            "Str": 21,
+            "Dex": 8,
+            "Int": 11
+        },
+        "Grow": {
+            "Str": 21,
+            "Dex": 16,
+            "Int": 3
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN002",
+                "Name": "風斬",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0055",
+                "Name": "神武命世",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 200,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1013,
+                "TeamBuff": null,
+                "Probability": 20,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 0,
+                "UUID": "PA0055",
+                "Name": "太陽入懷",
+                "Type": 3,
+                "Sets": null,
+                "Scope": 0,
+                "TeamBuff": {
+                    "Job": 0,
+                    "UUID": "d5318fed-cf47-41b8-a5df-5ad876d2ec4c",
+                    "Name": "太陽入懷",
+                    "Rank": 0,
+                    "Camp": 2,
+                    "Scope": 2060,
+                    "Limits": 3,
+                    "Formula": [
+                        {
+                            "Min": 5,
+                            "Max": 0,
+                            "Attr": "MaxHp",
+                            "Mode": 0
+                        }
+                    ]
+                },
+                "Probability": 0,
+                "Description": "當與同個勢力一同出戰，會增加全體各自血量5%，最多增加15%"
+            }
+        ],
+        "Resistance": {
+            "R1": 90,
+            "R2": 110,
+            "R3": 90,
+            "R4": 120
+        }
+    },
+    {
+        "Job": 3,
+        "UUID": "H0056",
+        "Name": "孫策",
+        "Rank": 2,
+        "Camp": 3,
+        "Base": {
+            "Str": 4,
+            "Dex": 7,
+            "Int": 9
+        },
+        "Grow": {
+            "Str": 4,
+            "Dex": 8,
+            "Int": 8
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN003",
+                "Name": "空氣彈",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 70,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1122,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0056",
+                "Name": "勇武小霸王",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 140,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1032,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 0,
+                "UUID": "PA0056",
+                "Name": "月亮入懷",
+                "Type": 3,
+                "Sets": null,
+                "Scope": 0,
+                "TeamBuff": {
+                    "Job": 0,
+                    "UUID": "263aac7e-144f-4b5a-91df-dad957e4160d",
+                    "Name": "月亮入懷",
+                    "Rank": 0,
+                    "Camp": 2,
+                    "Scope": 2000,
+                    "Limits": 2,
+                    "Formula": [
+                        {
+                            "Min": 5,
+                            "Max": 0,
+                            "Attr": "Def",
+                            "Mode": 0
+                        }
+                    ]
+                },
+                "Probability": 0,
+                "Description": "當與同個勢力的一同出戰，會增加自己的護甲5%，最多增加10%。"
+            }
+        ],
+        "Resistance": {
+            "R1": 80,
+            "R2": 80,
+            "R3": 105,
+            "R4": 105
+        }
+    },
+    {
+        "Job": 4,
+        "UUID": "H0057",
+        "Name": "黃蓋",
+        "Rank": 3,
+        "Camp": 3,
+        "Base": {
+            "Str": 7,
+            "Dex": 14,
+            "Int": 9
+        },
+        "Grow": {
+            "Str": 10,
+            "Dex": 11,
+            "Int": 9
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN004",
+                "Name": "狂打",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0057",
+                "Name": "殺一儆百",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 170,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 15,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 0,
+                "UUID": "PA0057",
+                "Name": "赴湯蹈火",
+                "Type": 3,
+                "Sets": null,
+                "Scope": 0,
+                "TeamBuff": {
+                    "Job": 4,
+                    "UUID": "38dce318-afed-4784-b490-e8e158d8be63",
+                    "Name": "赴湯蹈火",
+                    "Rank": 0,
+                    "Camp": 0,
+                    "Scope": 2060,
+                    "Limits": 3,
+                    "Formula": [
+                        {
+                            "Min": 5,
+                            "Max": 0,
+                            "Attr": "Def",
+                            "Mode": 0
+                        }
+                    ]
+                },
+                "Probability": 0,
+                "Description": "當與同個職業的一同出戰，會增加全體的護甲5%，最多增加15%。"
+            }
+        ],
+        "Resistance": {
+            "R1": 90,
+            "R2": 90,
+            "R3": 120,
+            "R4": 90
+        }
+    },
+    {
+        "Job": 3,
+        "UUID": "H0058",
+        "Name": "大喬",
+        "Rank": 3,
+        "Camp": 3,
+        "Base": {
+            "Str": 2,
+            "Dex": 13,
+            "Int": 15
+        },
+        "Grow": {
+            "Str": 3,
+            "Dex": 16,
+            "Int": 11
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN003",
+                "Name": "空氣彈",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 70,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1122,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0058",
+                "Name": "雙生和鳴",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 160,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1122,
+                "TeamBuff": null,
+                "Probability": 15,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 1,
+                "UUID": "PA0058",
+                "Name": "憐香惜玉",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": {
+                            "At": 0,
+                            "UUID": "3e9c51f1-3116-45da-a7a0-ab664dc91b4d",
+                            "Name": "憐香惜玉",
+                            "Mode": 3,
+                            "Sets": [
+                                {
+                                    "State": null,
+                                    "Method": 0,
+                                    "Formula": {
+                                        "Min": 10,
+                                        "Max": 0,
+                                        "Attr": "Atk",
+                                        "Mode": 0
+                                    },
+                                    "LimitAtker": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitHurter": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    }
+                                }
+                            ],
+                            "Times": 0,
+                            "Probability": 0
+                        },
+                        "Method": 5,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 2060,
+                "TeamBuff": null,
+                "Probability": 30,
+                "Description": "在開始戰鬥時會有30%機率增加全體攻擊10%"
+            }
+        ],
+        "Resistance": {
+            "R1": 110,
+            "R2": 100,
+            "R3": 90,
+            "R4": 90
+        }
+    },
+    {
+        "Job": 1,
+        "UUID": "H0059",
+        "Name": "小喬",
+        "Rank": 4,
+        "Camp": 3,
+        "Base": {
+            "Str": 3,
+            "Dex": 19,
+            "Int": 18
+        },
+        "Grow": {
+            "Str": 16,
+            "Dex": 11,
+            "Int": 13
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN001",
+                "Name": "突刺",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1031,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0059",
+                "Name": "羨煞眾生",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 180,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 20,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 1,
+                "UUID": "PA0059",
+                "Name": "芳澤媚生",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": {
+                            "At": 0,
+                            "UUID": "2fb2dcbb-0c7e-4206-9320-de90f671dbf8",
+                            "Name": "芳澤媚生",
+                            "Mode": 3,
+                            "Sets": [
+                                {
+                                    "State": null,
+                                    "Method": 0,
+                                    "Formula": {
+                                        "Min": 15,
+                                        "Max": 0,
+                                        "Attr": "Atk",
+                                        "Mode": 0
+                                    },
+                                    "LimitAtker": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    },
+                                    "LimitHurter": {
+                                        "Min": 0,
+                                        "Max": 0,
+                                        "Attr": "",
+                                        "Mode": 0
+                                    }
+                                }
+                            ],
+                            "Times": 0,
+                            "Probability": 0
+                        },
+                        "Method": 5,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 2060,
+                "TeamBuff": null,
+                "Probability": 65,
+                "Description": "在開始戰鬥前會有65%機率增加全體攻擊力15%"
+            }
+        ],
+        "Resistance": {
+            "R1": 110,
+            "R2": 115,
+            "R3": 105,
+            "R4": 90
+        }
+    },
+    {
+        "Job": 2,
+        "UUID": "H0060",
+        "Name": "周泰",
+        "Rank": 2,
+        "Camp": 3,
+        "Base": {
+            "Str": 10,
+            "Dex": 5,
+            "Int": 5
+        },
+        "Grow": {
+            "Str": 12,
+            "Dex": 5,
+            "Int": 3
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN002",
+                "Name": "風斬",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0060",
+                "Name": "救主出重圍",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 140,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1121,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 4,
+                "UUID": "PA0060",
+                "Name": "奮烈軀命",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 3,
+                        "Formula": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 5,
+                            "Max": 0,
+                            "Attr": "Hper",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 5,
+                "Description": "5%機率直接斬殺5％以下血量的妖魔或英雄。"
+            }
+        ],
+        "Resistance": {
+            "R1": 90,
+            "R2": 80,
+            "R3": 120,
+            "R4": 70
+        }
+    },
+    {
+        "Job": 4,
+        "UUID": "H0061",
+        "Name": "凌統",
+        "Rank": 2,
+        "Camp": 3,
+        "Base": {
+            "Str": 8,
+            "Dex": 6,
+            "Int": 6
+        },
+        "Grow": {
+            "Str": 6,
+            "Dex": 9,
+            "Int": 5
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN004",
+                "Name": "狂打",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0061",
+                "Name": "國士前鋒",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 110,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1012,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 6,
+                "UUID": "PA0061",
+                "Name": "壯士攻防",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 6,
+                        "Formula": {
+                            "Min": 50,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 2000,
+                "TeamBuff": null,
+                "Probability": 30,
+                "Description": "被攻擊時，有30%機率使自己減免50%傷害。"
+            }
+        ],
+        "Resistance": {
+            "R1": 100,
+            "R2": 120,
+            "R3": 80,
+            "R4": 70
+        }
+    },
+    {
+        "Job": 4,
+        "UUID": "H0062",
+        "Name": "丁奉",
+        "Rank": 2,
+        "Camp": 3,
+        "Base": {
+            "Str": 7,
+            "Dex": 5,
+            "Int": 8
+        },
+        "Grow": {
+            "Str": 4,
+            "Dex": 8,
+            "Int": 8
+        },
+        "Actives": [
+            {
+                "At": 0,
+                "UUID": "AN004",
+                "Name": "狂打",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1011,
+                "TeamBuff": null,
+                "Probability": 0,
+                "Description": ""
+            },
+            {
+                "At": 0,
+                "UUID": "AC0062",
+                "Name": "橫掃斬將",
+                "Type": 1,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 120,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1060,
+                "TeamBuff": null,
+                "Probability": 10,
+                "Description": ""
+            }
+        ],
+        "Passtives": [
+            {
+                "At": 7,
+                "UUID": "PA0062",
+                "Name": "不屈追擊",
+                "Type": 2,
+                "Sets": [
+                    {
+                        "State": null,
+                        "Method": 1,
+                        "Formula": {
+                            "Min": 100,
+                            "Max": 0,
+                            "Attr": "Atk",
+                            "Mode": 0
+                        },
+                        "LimitAtker": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        },
+                        "LimitHurter": {
+                            "Min": 0,
+                            "Max": 0,
+                            "Attr": "",
+                            "Mode": 0
+                        }
+                    }
+                ],
+                "Scope": 1000,
+                "TeamBuff": null,
+                "Probability": 30,
+                "Description": "被攻擊時有30%機率普通攻擊敵方一次。"
+            }
+        ],
+        "Resistance": {
+            "R1": 90,
+            "R2": 90,
+            "R3": 95,
+            "R4": 95
+        }
+    }
+]
