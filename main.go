@@ -21,7 +21,7 @@ func main() {
 	v1 := router.Group("/v1")
 	src.AddUserRouter(v1)
 
-	router.LoadHTMLGlob("./htmldemo/*") //載入資料夾下所有html檔
+	router.LoadHTMLGlob("./htmldemo/*") //Load all html files in the folder
 
 	router.GET("/test", MainPage)
 	router.GET("/insert", InsertPage)
